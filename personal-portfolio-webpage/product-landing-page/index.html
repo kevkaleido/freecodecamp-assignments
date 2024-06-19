@@ -1,110 +1,79 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Build an Art Showcase Landing Page - freeCodeCamp</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadianceGlow Face Cream</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header id="header">
-    <img src="https://images.pexels.com/pho20/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="blank canvas logo" id="header-img">
-    <nav id="nav-bar">
-      <a href="#features" class="nav-link">Features</a>
-      <a href="#video" class="nav-link">Inspiration</a>
-      <a href="#products" class="nav-link">Catalogue</a>
-    </nav>
-  </header>
-  
-  <main>
-    <article id="intro">
-      <h2>Authentic, overpriced art masterpieces</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input type="email" name="email" placeholder="enter your email to join the elite" id="email" required></input>
-        <input type="submit" id="submit" value="Join Us" class="btn">
-      </form>
-    </article>
-  
-    <article id="features">
-      <section class="feature-section">
-        <img src="https://www.qmsuk.com/wp-content/themes/qms2016/assets/images/icons/common/tick.png" class="feature-img">
-        <div>
-          <h2>Exorbitant Pricing</h2>
-          <p>Because if it's expensive, it must be good. We price our art based on how confusing it is to look at.</p>
-        </div>
-      </section>
-      <section class="feature-section">
-        <img src="https://www.qmsuk.com/wp-content/themes/qms2016/assets/images/icons/common/tick.png" class="feature-img">
-        <div>
-          <h2>Questionable Origins</h2>
-          <p>We ensure that each piece could potentially be from anywhere and possibly nowhere at all.</p>
-        </div>
-      </section>
-      <section class="feature-section">
-        <img src="https://www.qmsuk.com/wp-content/themes/qms2016/assets/images/icons/common/tick.png" class="feature-img">
-        <div>
-          <h2>Abstract Benefits</h2>
-          <p>Each purchase guarantees an increase in social status, or at least makes you feel like it does.</p>
-        </div>
-      </section>
-    </article>
-  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/abstract_art_tutorial" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" id="video" allowfullscreen></iframe>
-  
-    <article id="products">
-      <section class="product-section">
-        <div class="product-header">
-          <h2>The Void Canvas</h2>
-        </div>
-        <div class="product-content">
-          <p class="product-price">$5000</p>
-          <ol class="product-desc">
-            <li>Just a white canvas.</li>
-            <li>Really, just white.</li>
-            <li>Stare at it and find your inner peace or something.</li>
-            <li>Perfect for minimalists and billionaires.</li>
-          </ol>
-        </div>
-        <button class="btn">select</button>
-      </section>
-      <section class="product-section">
-        <div class="product-header">
-          <h2>Random Doodle Collection</h2>
-        </div>
-        <div class="product-content">
-          <p class="product-price">$1500</p>
-          <ol class="product-desc">
-            <li>Doodles by a toddler? Maybe.</li>
-            <li>Inspired by a true artist's napkin sketches.</li>
-            <li>Each smudge a testament to unintentional genius.</li>
-            <li>Includes coffee stains for authenticity.</li>
-          </ol>
-        </div>
-        <button class="btn">select</button>
-      </section>
-      <section class="product-section">
-        <div class="product-header">
-          <h2>Mysterious Stain Art</h2>
-        </div>
-        <div class="product-content">
-          <p class="product-price">$3000</p>
-          <ol class="product-desc">
-            <li>Is it wine? Is it blood? It's art.</li>
-            <li>Interpretation is up to the beholder.</li>
-            <li>Guaranteed to provoke conversation or awkward silences.</li>
-            <li>Definitely not a cleaning hazard.</li>
-          </ol>
-        </div>
-        <button class="btn">select</button>
-      </section>
-    </article>
-  
-  </main>
-  
-  <footer>
-    <nav id="footer-nav">
-      <a href="" class="nav-link">Privacy</a>
-      <a href="" class="nav-link">Terms</a>
-      <a href="" class="nav-link">Contact</a>
-    </nav>
-    <p>Copyright 2023, Original Masterpieces</p>
-  </footer>
+    <header>
+        <nav>
+            <div class="logo">RadianceGlow</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#video">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Unveil Your Natural Glow</h1>
+                <p>Experience the ultimate in skincare with RadianceGlow Face Cream. Nourish, hydrate, and rejuvenate your skin.</p>
+                <a href="#features" class="cta">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/5069395/pexels-photo-5069395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Features</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <h3>Deep Hydration</h3>
+                    <p>Infused with natural ingredients that deeply hydrate and nourish your skin.</p>
+                </div>
+                <div class="feature">
+                    <h3>Anti-Aging</h3>
+                    <p>Reduces the appearance of fine lines and wrinkles, leaving your skin youthful and radiant.</p>
+                </div>
+                <div class="feature">
+                    <h3>Natural Glow</h3>
+                    <p>Enhances your skin's natural glow, giving you a brighter and more even complexion.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="video-section">
+            <h2>Product Demo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RadianceGlow. All rights reserved.</p>
+    </footer>
 </body>
+</html>
